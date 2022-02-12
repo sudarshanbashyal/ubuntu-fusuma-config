@@ -1,9 +1,9 @@
 swipe:
   3: 
-    left: 
-      command: 'xdotool key alt+shift+tab'
-    right: 
-      command: 'xdotool key alt+tab'
+    left:
+      command: 'xdotool key Alt_L+Shift+Tab'
+    right:
+      command: 'xdotool key Alt_L+Tab'
     up: 
       command: 'xdotool key super'
     down: 
@@ -14,14 +14,10 @@ swipe:
     right: 
       command: 'xdotool key XF86AudioRaiseVolume'
     up: 
-      command: 'xdotool set_desktop --relative n+1'
+      command: 'xdotool key ctrl+j'
     down: 
-        command: 'xdotool set_desktop --relative n-1'
+      command: 'xdotool key ctrl+k'
 pinch:
-  in:
-    command: 'xdotool key ctrl+plus'
-  out:
-     command: 'xdotool key ctrl+minus'
 
 threshold:
   swipe: 0.4
